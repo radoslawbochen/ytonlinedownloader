@@ -23,8 +23,7 @@ public class LandingController {
 			@RequestParam(name = "videoId") String videoId
 	){
 		JavaYoutubeDownloader.download(videoId, directory);
-		System.out.print("xd");
-		return "xd";
+		return "";
 	}
 
 	@RequestMapping(value = "/")
